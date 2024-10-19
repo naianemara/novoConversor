@@ -1,0 +1,130 @@
+ * {
+     font-family: "Roboto", sans-serif;
+     padding: 0;
+     margin: 0;
+     box-sizing: border-box;
+     outline: none;
+ }
+
+ body {
+     background: rgb(138, 81, 252);
+ }
+
+ .git-principal {
+     width: 300px;
+     height: 300px;
+     margin: 20px auto;
+     display: block;
+
+ }
+
+ main {
+     width: 375px;
+     background: #F4F4F4;
+     border-radius: 20px;
+     margin: 0 auto;
+     padding: 44px 24px 23px;
+     margin-bottom: 40px;
+ }
+
+ label {
+     width: 327px;
+     height: 72px;
+     font-size: 14px;
+     font-weight: 400;
+     line-height: 18px;
+     text-align: left;
+     color: #777777;
+ }
+
+ select,
+ input {
+     background: #FFFFFF;
+     width: 100%;
+     height: 48px;
+     border-radius: 4px;
+     border: 1px solid #BBBBBB;
+     margin-bottom: 24px;
+     font-size: 16px;
+     padding-left: 18px;
+     font-weight: 700;
+     line-height: 18px;
+     text-align: left;
+     color: #555555;
+     cursor: pointer;
+     box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
+ }
+
+ button {
+     width: 327px;
+     height: 48px;
+     border-radius: 5px;
+     background: #772FD3;
+     border-radius: 5px;
+     box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
+     border: none;
+     font-size: 18px;
+     font-weight: 700;
+     line-height: 18px;
+     color: #FFFFFF;
+     cursor: pointer;
+
+ }
+
+ button:hover {
+     opacity: 0.6;
+ }
+
+ button:active {
+     opacity: 0.4;
+ }
+
+ section{
+    border: 1px solid #772FD3;
+    border-radius: 20px;
+    margin-top: 36px;
+    padding: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+ }
+
+ .arrow{
+    margin: 15px 0;
+
+ }
+
+ .curreency-box {
+
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   gap: 4px;
+ }
+ .currency{
+    color:  #777777;
+
+    font-size: 14px;
+    line-height: 18px;
+
+
+ }
+
+ .currency-to-convert .converted-currency{
+    color: #555555;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 18px;
+
+ }
+
+ @media screen and (max-width: 800px) {
+
+    .git-principal{
+        display: none;
+    }
+    main{
+        margin-top: 40px;
+    }
+    
+ }
